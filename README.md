@@ -58,3 +58,25 @@ A pesar de estar cursando nuevamente la materia, hay cosas que desconocía, como
 ### ***Bibliografias***
 
 ![Bibilografias](3.png)
+
+
+
+# **Actividad 2: Sistemas numéricos**
+
+## Diagrama de bloques 
+A continuacion se presenta el diagrama de bloques , enfocado en como opera el sistema de control de una aeronave.
+
+
+![Diagrama de bloques](bloq.png)
+
+## Tres casos de aplicación.
+
+![Pagina 1](pag1.png)
+![Pagina 2](pag2.png)
+![Pagina 3](pag3.png)
+
+## Conclusiones de la actividad. 
+-	El realizar correctamente diagramas de bloques, nos permite ver y entender la estructura, así como el funcionamiento de un sistema, en este caso modular, de una manera mucho más clara y ordenada. Además, este tipo de mapa ayuda a identificar las principales etapas del proceso y las interacciones entre los componentes, facilitando la comprensión por pasos del sistema.
+-	El implementar un bit de paridad en cada uno de los datos, nos pude ayudar a ser más precisos a la hora de trabajar con grandes cantidades de estos, al permitir verificar errores en la codificación o variación de estos.
+-	El computador solo va a entender lo que le hagamos entender, el solamente entiende binario, así mismo, sus componentes solo entienden este lenguaje, por esto es necesario la transcripción a binario.
+-	Así mismo el nombrar datos o etiquetarlos, me permite identificar en que parte del proceso están estos. 
