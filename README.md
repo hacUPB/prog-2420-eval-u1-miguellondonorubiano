@@ -80,3 +80,93 @@ A continuacion se presenta el diagrama de bloques , enfocado en como opera el si
 -	El implementar un bit de paridad en cada uno de los datos, nos pude ayudar a ser más precisos a la hora de trabajar con grandes cantidades de estos, al permitir verificar errores en la codificación o variación de estos.
 -	El computador solo va a entender lo que le hagamos entender, el solamente entiende binario, así mismo, sus componentes solo entienden este lenguaje, por esto es necesario la transcripción a binario.
 -	Así mismo el nombrar datos o etiquetarlos, me permite identificar en que parte del proceso están estos. 
+
+
+
+
+# Actividad 3: Algoritmos
+
+Se pide resolver una serie de problemas utilizando algoritmos, dos de ellos a libre elección del estudiante y el problema número 6 de manera obligatoria.
+
+Para resolver estos problemas, utilizamos un ejemplo dado por el docente, que nos servirá de guía para resolver los ejemplos propuestos ,el ejemplo consiste en calcular el gasto de energía eléctrica de una persona en un mes:
+
+Inicio
+
+    Definir gasto_total como 0
+    Definir costo_kWh como 0.15
+    Leer el número de días en el mes (n)
+    Para cada día desde 1 hasta n hacer
+        Leer lectura_dia
+        Sumar lectura_dia a gasto_total
+    Fin Para
+    Multiplicar gasto_total por costo_kWh
+    Imprimir gasto_total
+Fin
+
+## Problema 1: Determinar el promedio de calificaciones de un estudiante y si ha aprobado o no
+Ana quiere saber si ha aprobado sus exámenes finales. Tiene una lista de sus calificaciones y necesita calcular el promedio. Para aprobar, debe tener un promedio de al menos 3.0.
+
+Inicio
+
+    Definir suma como 0
+    Definir promedio como 0.0
+    Leer el número de calificaciones que tiene Ana (n)
+    Para cada i desde 1 hasta n hacer
+        Leer calificación
+        Sumar calificación a suma
+    Fin Para
+        Dividir suma entre n para calcular el promedio
+     Si promedio >= 3.0 entonces
+        Imprimir "Aprobado"
+    Si no
+        Imprimir "No aprobado"
+Fin
+
+## Problema 4: Determinar la distancia total recorrida por un vehículo con registros de velocidad y tiempo
+María tiene un registro de las velocidades a las que ha conducido su vehículo y el tiempo que ha mantenido cada velocidad. Quiere calcular la distancia total recorrida.
+
+Inicio
+
+    Definir distancia total como 0
+    Definir velocidad como 0
+    Definir tiempo como 0
+    Leer el número de Velocidades/registros que tiene Ana (n)
+    Para cada registro desde 1 hasta n hacer:
+        Leer velocidad
+        Leer tiempo
+        Calcular distancia parcial de un viaje = velocidad * tiempo
+        Sumar distancia parcial de un viaje a distancia total 
+    Fin Para
+    Imprimir "La distancia total recorrida por María a lo largo de sus viajes es: " + distancia total
+Fin
+
+## Problema 6 (obligatorio): Calcular la edad de una persona a partir de su fecha de nacimiento y la fecha actual
+Descripción del Problema: Se desea saber cuántos años, meses y días tiene actualmente una persona, basándose en su fecha de nacimiento. Además, le gustaría saber si ya ha cumplido años este año o aún no, y si hoy es su cumpleaños para celebrarlo. Cada una de las fechas está conformada por 3 variables: día, mes y año
+
+Inicio
+
+    Leer día nacimiento
+    Leer mes nacimiento
+    Leer año de nacimiento 
+
+    Leer día actual
+    Leer mes actual
+    Leer año actual
+
+    Edad en años =Año actual-Año de nacimiento
+
+    Condicionales:
+    Si (mes actual< mes nacimiento) o (mes actual = mes de nacimiento y día actual <día nacimiento) entonces 
+        Edad en años =edad en años-1
+    Fin si
+
+    Meses totales=(año actual – año nacimiento)*12 +mes actual -mes nacimiento
+    Días totales =(año actual – año nacimiento)*365 +(mes actual -mes nacimiento)*30+dia actual – día nacimiento
+    Si (mes actual = mes nacimiento y día actual = día nacimiento) entonces 
+        Imprimir: “Feliz Dia, hoy es tu cumpleaños”
+    Fin si
+    Imprimir “Edad en años” + Edad en años 
+    Imprimir “Edad en meses” + meses totales
+    Imprimir “Edad en días” + días totales
+
+ Fin
